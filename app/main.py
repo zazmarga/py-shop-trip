@@ -1,3 +1,3 @@
-# TODO: add initial code
-def hello_world():
-    return "Hello, world!"
+def shop_trip(config: str):
+    # write your code here
+    pass
