@@ -2,7 +2,7 @@
 
 - Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
 
-You want to create application that helps customers to choose the cheapest
+You want to create an application that helps customers to choose the cheapest
 trip for the products.
 
 There is `config.json` file that contains:
@@ -30,12 +30,12 @@ Write `shop_trip` function that doesn't take any argument,
 where customers calculate how 
 much will cost trip for the products in every shop and pick
 the cheapest one and ride there if they have enough money.
-When customer arrives to the shop his location should equal to
+When the customer arrives at the shop his location should equal to
 shop location. After customer buys products, shop prints purchase
 receipt using current time. After the shop he arrives home and
 counts the remaining money.
 
-Example, let's say now is 2021/01/04 12:33:41:
+For example, let's say now is 2021/01/04 12:33:41:
 ```javascript
  // config.py:
 
