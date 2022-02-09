@@ -26,16 +26,18 @@ Shops:
 - location
 - products that shop provides
 
-Write `shop_trip` function, where customers calculate how 
+Write `shop_trip` function that doesn't take any argument,
+where customers calculate how 
 much will cost trip for the products in every shop and pick
 the cheapest one and ride there if they have enough money.
 When customer arrives to the shop his location should equal to
 shop location. After customer buys products, shop prints purchase
-receipt using current time.
+receipt using current time. After the shop he arrives home and
+counts the remaining money.
 
 Example, let's say now is 2021/01/04 12:33:41:
 ```javascript
- // config.json:
+ // config.py:
 
 {
     "FUEL_PRICE": 2.4,   
@@ -93,7 +95,7 @@ Example, let's say now is 2021/01/04 12:33:41:
 ```
 ```python
 # main.py:
-shop_trip(config="config.json")
+shop_trip()
 
 # Bob has 55 dollars
 # Bob's trip to the Outskirts Shop costs 28.24
@@ -120,4 +122,4 @@ shop_trip(config="config.json")
 You design application architecture by yourself.
 
 Distance between customer and shop is a distance between their locations
-in km.
+in km. All calculations round to 2 decimals.

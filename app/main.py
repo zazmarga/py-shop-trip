@@ -1,3 +1,3 @@
-def shop_trip(config: str):
+def shop_trip():
     # write your code here
     pass
