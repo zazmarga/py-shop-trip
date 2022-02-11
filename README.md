@@ -101,8 +101,8 @@ For example, let's say now is 2021/01/04 12:33:41:
 shop_trip()
 
 # Bob has 55 dollars
-# Bob's trip to the Outskirts Shop costs 28.24
-# Bob's trip to the Shop '24/7' costs 31.52
+# Bob's trip to the Outskirts Shop costs 28.21
+# Bob's trip to the Shop '24/7' costs 31.48
 # Bob rides to Outskirts Shop
 # 
 # Date: 2021/01/04 12:33:41
@@ -115,14 +115,15 @@ shop_trip()
 # See you again!
 # 
 # Bob rides home
-# Bob now has 26.76 dollars
+# Bob now has 26.79 dollars
 #
 # Monica has 12 dollars
-# Monica's trip to the Outskirts Shop costs 15.64
-# Monica's trip to the Shop '24/7' costs 16.8
+# Monica's trip to the Outskirts Shop costs 15.65
+# Monica's trip to the Shop '24/7' costs 16.84
 # Monica doesn't have enough money to make purchase in any shop
 ```
 You design application architecture by yourself.
 
 Distance between customer and shop is a distance between their locations
-in km. All calculations round to 2 decimals.
+in km. 
+Round printed value to two decimal places.
