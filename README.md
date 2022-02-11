@@ -126,4 +126,4 @@ You design application architecture by yourself.
 
 Distance between customer and shop is a distance between their locations
 in km. 
-Round printed to two decimal places.
+Round printed value to two decimal places.
