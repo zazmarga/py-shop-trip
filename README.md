@@ -38,7 +38,7 @@ counts the remaining money.
 The cost of the trip consists of three parts: the fuel cost to get 
 to the shop, cost of all products to buy, the fuel cost to get home.
 
-For example, let's say now is 2021/01/04 12:33:41:
+For example, let's say now is 04/01/2021 12:33:41:
 ```javascript
  // config.py:
 
