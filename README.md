@@ -105,7 +105,7 @@ shop_trip()
 # Bob's trip to the Shop '24/7' costs 31.48
 # Bob rides to Outskirts Shop
 # 
-# Date: 2021/01/04 12:33:41
+# Date: 04/01/2021 12:33:41
 # Thanks, Bob, for you purchase!
 # You have bought: 
 # 4 milks for 12 dollars
