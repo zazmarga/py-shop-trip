@@ -127,6 +127,17 @@ You design application architecture by yourself, but there are some rules:
 * You must create and use at least 2 additional modules
 * Your project use at least 2 classes
 
-Distance between customer and shop is a distance between their locations
-in km. 
+<details open>
+  <summary>
+    Hint: modules structure example if you have problems with architecture.
+  </summary>
+  py-shop-trip/<br>
+  |-- car.py<br>
+  |-- customer.py<br>
+  |-- main.py<br>
+  └-- shop.py<br>
+</details>
+
+
+Distance between customer and shop is a distance between their locations in km. 
 Round printed value to two decimal places.
