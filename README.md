@@ -122,7 +122,10 @@ shop_trip()
 # Monica's trip to the Shop '24/7' costs 16.84
 # Monica doesn't have enough money to make purchase in any shop
 ```
-You design application architecture by yourself.
+You design application architecture by yourself, but there are some rules:
+* The `main.py` module must contain only `shop_trip` function
+* You must create and use at least 2 additional modules
+* Your project use at least 2 classes
 
 Distance between customer and shop is a distance between their locations
 in km. 
