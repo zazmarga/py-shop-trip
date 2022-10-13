@@ -50,6 +50,10 @@ with open("some_config_file.json", "r") as scf:
 
 3. Make sure that yor architecture is clear and your code is readable.
 
+4. Make sure you write the correct path to the JSON file.
+
+5. Make sure you use exactly `import datetime`, not the other way of import.
+
 ## Clean Code
 
 Add comments, prints, and functions to check your solution when you write your code. 
