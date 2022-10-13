@@ -1,6 +1,6 @@
 # Shop trip
 
-- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
+- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before starting.
 
 You want to create an application that helps customers to choose the cheapest
 trip for the products.
@@ -141,3 +141,6 @@ You design application architecture by yourself, but there are some rules:
 
 Distance between customer and shop is a distance between their locations in km. 
 Round printed value to two decimal places.
+
+
+### Note: Check your code using this [checklist](checklist.md) before pushing your solution.
