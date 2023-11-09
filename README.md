@@ -1,6 +1,6 @@
 # Shop trip
 
-- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
+- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before starting.
 
 You want to create an application that helps customers to choose the cheapest
 trip for the products.
@@ -38,7 +38,7 @@ counts the remaining money.
 The cost of the trip consists of three parts: the fuel cost to get 
 to the shop, cost of all products to buy, the fuel cost to get home.
 
-For example, let's say now is 2021/01/04 12:33:41:
+For example, let's say now is 04/01/2021 12:33:41:
 ```javascript
  // config.py:
 
@@ -105,8 +105,8 @@ shop_trip()
 # Bob's trip to the Shop '24/7' costs 31.48
 # Bob rides to Outskirts Shop
 # 
-# Date: 2021/01/04 12:33:41
-# Thanks, Bob, for you purchase!
+# Date: 04/01/2021 12:33:41
+# Thanks, Bob, for your purchase!
 # You have bought: 
 # 4 milks for 12 dollars
 # 2 breads for 2 dollars
@@ -120,10 +120,27 @@ shop_trip()
 # Monica has 12 dollars
 # Monica's trip to the Outskirts Shop costs 15.65
 # Monica's trip to the Shop '24/7' costs 16.84
-# Monica doesn't have enough money to make purchase in any shop
+# Monica doesn't have enough money to make a purchase in any shop
 ```
-You design application architecture by yourself.
+You design application architecture by yourself, but there are some rules:
+* The `main.py` module must contain only `shop_trip` function
+* You must create and use at least 2 additional modules
+* Your project use at least 2 classes
 
-Distance between customer and shop is a distance between their locations
-in km. 
+<details open>
+  <summary>
+    Hint: modules structure example if you have problems with architecture.
+  </summary>
+  py-shop-trip/<br>
+  |-- car.py<br>
+  |-- customer.py<br>
+  |-- main.py<br>
+  └-- shop.py<br>
+</details>
+
+
+Distance between customer and shop is a distance between their locations in km. 
 Round printed value to two decimal places.
+
+
+### Note: Check your code using this [checklist](checklist.md) before pushing your solution.
