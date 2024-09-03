@@ -45,7 +45,7 @@ class Shop:
         if print_check:
             print("Date:",
                   datetime(2021, 1, 4, 12, 33, 41)
-                  .strftime('%d/%m/%Y %H:%M:%S')
+                  .strftime("%d/%m/%Y %H:%M:%S")
                   )
             print(f"Thanks, {customer.name}, for your purchase!")
             print("You have bought:")
