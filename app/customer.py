@@ -42,6 +42,6 @@ class Customer:
         payment_by_check = shop.calculate_amount_purchase(self,
                                                           print_check=True)
         self.money -= payment_by_check
-        print(f"{self.name} rides home")
-        print(f"{self.name} now has {round(self.money, 2)} dollars\n")
+        print(f"{self.name} rides home\n"
+              f"{self.name} now has {round(self.money, 2)} dollars\n")
         self.location = home_location

@@ -18,7 +18,7 @@ def shop_trip() -> None:
             Shop(
                 shop["name"],
                 shop["location"],
-                [ProductShop(key, value) for key, value
+                [ProductShop(name, price) for name, price
                  in shop["products"].items()]
             )
         )
@@ -32,8 +32,7 @@ def shop_trip() -> None:
                  in customer["product_cart"].items()],
                 customer["location"],
                 customer["money"],
-                Car(customer["car"]["brand"],
-                    customer["car"]["fuel_consumption"])
+                Car(**customer["car"])
             )
         )
 

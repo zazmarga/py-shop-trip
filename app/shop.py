@@ -43,12 +43,10 @@ class Shop:
     ) -> float:
         result = 0
         if print_check:
-            print("Date:",
-                  datetime(2021, 1, 4, 12, 33, 41)
-                  .strftime("%d/%m/%Y %H:%M:%S")
-                  )
-            print(f"Thanks, {customer.name}, for your purchase!")
-            print("You have bought:")
+            print(f"Date: {datetime(2021, 1, 4, 12, 33, 41)
+                  .strftime('%d/%m/%Y %H:%M:%S')}\n"
+                  f"Thanks, {customer.name}, for your purchase!\n"
+                  "You have bought:")
         for each in customer.product_cart:
             for product in self.products:
                 if each.name == product.name:
@@ -63,6 +61,6 @@ class Shop:
                         print(f"{quantity} {product.name}{plural} "
                               f"for {amount_each} dollars")
         if print_check:
-            print(f"Total cost is {round(result, 2)} dollars")
-            print("See you again!\n")
+            print(f"Total cost is {round(result, 2)} dollars\n"
+                  "See you again!\n")
         return round(result, 2)
