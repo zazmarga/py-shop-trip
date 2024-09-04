@@ -43,8 +43,10 @@ class Shop:
     ) -> float:
         result = 0
         if print_check:
-            print(f"Date: {datetime(2021, 1, 4, 12, 33, 41)
-                  .strftime('%d/%m/%Y %H:%M:%S')}\n"
+            date_trip = datetime(
+                2021, 1, 4, 12, 33, 41
+            ).strftime("%d/%m/%Y %H:%M:%S")
+            print(f"Date: {date_trip}\n"
                   f"Thanks, {customer.name}, for your purchase!\n"
                   "You have bought:")
         for each in customer.product_cart:
